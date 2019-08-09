@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request Type" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal" sequence="0" value="legal"/>
+                <element inactive_on_update="false" label="Asi Legal2" sequence="1" value="asi legal2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" max_length="40" name="u_choice_10" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal 1" sequence="0" value="legal 1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal 1" label="What needed" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal 1" sequence="0" value="legal 1"/>
+            </choice>
+        </element>
+        <element label="When needed" mandatory="true" max_length="40" name="u_due_date_3" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_date_time_9" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="u_journal_4" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="4000" name="u_journal_8" type="journal"/>
+        <element label="Short description" max_length="40" name="u_longint_5" type="longint"/>
+        <element label="Work notes" max_length="40" name="u_longint_7" type="longint"/>
+    </element>
+</database>
